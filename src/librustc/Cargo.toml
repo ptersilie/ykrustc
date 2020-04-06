@@ -34,6 +34,6 @@ backtrace = "0.3.40"
 parking_lot = "0.9"
 byteorder = { version = "1.3" }
 smallvec = { version = "1.0", features = ["union", "may_dangle"] }
-ykpack = { git = "https://github.com/softdevteam/yk" }
+ykpack = { git = "https://github.com/ptersilie/yk", branch="compile_calls" }
 measureme = "0.7.1"
 rustc_session = { path = "../librustc_session" }
